@@ -1,0 +1,110 @@
+/*family :: Roboto|Montserrat|Lobster*/
+
+!@charset "utf-8";
+/* CSS Document */
+body{margin:0px;padding:0px;
+background-image:url('../images/exercice-4/fusee.jpg');
+}
+html{margin:0px;padding:0px;}
+/*-----------------------HEADER-------------------------------------*/
+header{
+background-color:rgba(100, 240, 229, 0.9);
+display:block;
+position:fixed;
+top:0px;left:0px;right:0px;
+border-bottom-left-radius:17px;
+border-bottom-right-radius:17px;
+box-shadow:0px 0px 10px 2px black;
+}
+header h1{font-family:'lobster', Arial;
+color:white;text-shadow:2px 2px 15px black;
+margin-left:4%;font-size:2em;
+margin-bottom:20px;
+}
+span.color{
+color:rgba(61, 211, 84, 0.87);   font-size:1.2em;
+border-radius:50%;
+margin-left:5px;
+text-shadow:0px 0px 0px white;
+background-color:rgba(255, 255, 255, 0.85);
+padding:5px;
+box-shadow:0px 0px 15px rgb(255, 0, 0) ;
+}
+header ul{
+display:flex; 
+justify-content:space-around;
+list-style:none;margin:0px;
+padding-bottom:8px;
+}
+header a:hover{
+font-size:35px;    
+}
+header a{
+font-family:'Lobster', Arial;text-decoration:none;
+font-size:30px;
+color:rgb(28, 173, 39);}
+
+/* ---------------------FIN HEADER ------------------------------*/
+/* DEBUT SLOGAN */
+#photo-fond{
+background-image:url('../images/exercice-4/fusee.jpg');
+background-color:rgba(100, 240, 229, 0.54);
+color:red;font-size:2em;font-family:
+border:1px solid black;
+margin-top:160px;margin-left:50px;margin-right:50px;
+height:300px;
+
+}
+/*we do website !! */
+div.wrapper h2{
+font-family:'Lobster', Arial;color:rgb(5, 56, 88);
+font-size:195%;
+padding-left:20px;
+
+}
+.wrapper a.button-1{/*en avant go !!*/
+text-decoration:none;
+background:rgba(255, 255, 255, 0.6);font-weight:bold;
+color:rgb(28, 173, 39);
+width:200px;
+text-align:center;
+display:block;margin:auto;
+border-bottom-left-radius:50%;
+border-bottom-right-radius:50%;
+padding-top:0px;padding-bottom:10px;
+position:relative;top:40px;right:30px; }
+/* FIN SLOGAN*/
+/* WRAPP ACTUALITES : inauguration, café et ordis */
+.div#actualites{  
+}
+div#actualites .wrapper{background-color:rgba(100, 240, 229, 0.54);
+
+}
+.actualites-1, .actualites-2, .actualites-3{
+font-family:'Roboto', Arial;font-size:15px;padding-left:5px;padding-right:5px;text-align:justify;
+}
+.actualites-1{color:blue;}
+.actualites-2{color:red;}
+.actualites-3{color:green;}
+div#actualites ul{
+display:flex;
+justify-content:space-around;
+margin-left:-38px;
+}
+div#actualites ul li{
+border:1px solid black;
+list-style:none;
+width:32%;
+}
+
+/*fin actualités*/
+.clear{}
+div#la-une{background-color:rgba(100, 240, 229, 0.54);}
+div#archives{background-color:rgba(100, 240, 229, 0.54);}
+.overlay{}
+.more-link{}
+div#cta{background-color:rgba(100, 240, 229, 0.54);}
+.button-2{}
+div#footer-info{}
+div#footer-links#{}
+footer{}

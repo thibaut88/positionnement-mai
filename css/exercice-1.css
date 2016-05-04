@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size:25px;
+	}
+	
+	
+.petit_carre {
+	position: absolute;
+
+/*MA PARTIE */
+width:200px;
+height:200px;
+/**/    
+	}
+
+
+/*MA PARTIE */
+.gros_carre{
+position:relative;
+width:600px;height:600px;
+}
+/*divs*/
+.noir{background:black;
+position:absolute;
+top:0px;left:0px;
+padding-top:10px;
+}
+.jaune{background:yellow;
+position:absolute;
+top:0px;left:200px;
+}
+.orange{background:orange;
+position:absolute;
+left:0px;top:200px;
+}
+.blanc{background:white;
+position:absolute;
+left:200px;top:200px;
+display:flex;
+justify-content:center;
+align-items:center;}
+.gris1{background:#afa9a9;
+position:absolute;
+top:0px;right:0px;
+    padding-top:10px;
+
+}
+.bleu{background:blue;
+position:absolute;
+right:0px;top:200px;
+}
+.gris2{background:#393232;
+position:absolute;
+bottom:0px;left:0px;
+}
+.rouge{background:red;
+position:absolute;
+left:200px;bottom:0px;
+}
+.gris3{background:#868080;
+position:absolute;
+bottom:0px;right:0px;
+display:flex;
+justify-content:flex-end;
+align-items:flex-end;
+    
+
+}
+header{color:white;
+text-align:right;
+padding-right:10px;
+text-transform:uppercase;
+}
+nav{
+  text-transform:capitalize;
+  padding-left:10px;
+
+}
+footer{
+color:white;   text-transform:capitalize;
+text-align:right;
+    padding-right:10px;
+padding-bottom:10px;
+}
+article{
+    
+}
